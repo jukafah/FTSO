@@ -1,0 +1,23 @@
+﻿{
+  "AssociateAutomationEngineer": {
+    "minimumSkill": 0 
+  },
+  "AutomationEngineerOne": {
+    "minimumSkill": 1
+  },
+  "AutomationEngineerTwo": {
+    "minimumSkill": 2
+  },
+  "SeniorAutomationEngineer": {
+    "minimumSkill": 4
+  },
+  "SDET": {
+    "minimumSkill": 7
+  },
+  "TestArchitect": {
+    "minimumSkill": 9
+  },
+  "CorporateTestArchitect": {
+    "minimumSkill": 10
+  }
+}

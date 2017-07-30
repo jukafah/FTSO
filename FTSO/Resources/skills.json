@@ -1,0 +1,41 @@
+﻿{
+  "generalProgramming": {
+    
+  },
+  "developmentFrameworks": {
+    "skillWeight": 1
+  },
+  "objectOrientedDesign": {
+    "skillWeight": 1
+  },
+  "developmentTools": {
+    "skillWeight": 0.85
+  },
+  "developmentPlatforms": {
+    "skillWeight": 0.85
+  },
+  "generalKnowledge": {
+    "skillWeight": 1
+  },
+  "SDLC": {
+    "skillWeight": 0.85
+  },
+  "testTools": {
+    "skillWeight": 0.5
+  },
+  "testFrameworks": {
+    "skillWeight": 0.85
+  },
+  "testEngineering": {
+    "skillWeight": 1
+  },
+  "testInfrastructure": {
+    "skillWeight": 1
+  },
+  "testPractices": {
+    "skillWeight": 1
+  },
+  "testDelivery": {
+    "skillWeight": 0.85
+  }
+}
