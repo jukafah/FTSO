@@ -48,7 +48,7 @@ namespace FTSO
             }
             catch (ArgumentNullException ex)
             {
-                Console.WriteLine("poopfish");
+                Console.WriteLine("Do some error handling");
                 throw;
             }
 
