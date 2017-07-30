@@ -1,23 +1,9 @@
 ﻿{
-  "AssociateAutomationEngineer": {
-    "minimumSkill": 0 
-  },
-  "AutomationEngineerOne": {
-    "minimumSkill": 1
-  },
-  "AutomationEngineerTwo": {
-    "minimumSkill": 2
-  },
-  "SeniorAutomationEngineer": {
-    "minimumSkill": 4
-  },
-  "SDET": {
-    "minimumSkill": 7
-  },
-  "TestArchitect": {
-    "minimumSkill": 9
-  },
-  "CorporateTestArchitect": {
-    "minimumSkill": 10
-  }
+  "Associate Automation Engineer": 0,
+  "Automation Engineer One": 1,
+  "Automation Engineer Two": 2,
+  "Senior Automation Engineer": 4,
+  "Software Development Engineer in Test": 7,
+  "Test Architect": 9,
+  "Corporate Test Architect": 10
 }

@@ -1,41 +1,15 @@
 ﻿{
-  "General Programming": {
-    
-  },
-  "developmentFrameworks": {
-    "skillWeight": 1
-  },
-  "objectOrientedDesign": {
-    "skillWeight": 1
-  },
-  "developmentTools": {
-    "skillWeight": 0.85
-  },
-  "developmentPlatforms": {
-    "skillWeight": 0.85
-  },
-  "generalKnowledge": {
-    "skillWeight": 1
-  },
-  "SDLC": {
-    "skillWeight": 0.85
-  },
-  "testTools": {
-    "skillWeight": 0.5
-  },
-  "testFrameworks": {
-    "skillWeight": 0.85
-  },
-  "testEngineering": {
-    "skillWeight": 1
-  },
-  "testInfrastructure": {
-    "skillWeight": 1
-  },
-  "testPractices": {
-    "skillWeight": 1
-  },
-  "testDelivery": {
-    "skillWeight": 0.85
-  }
+  "General Programming": 1,
+  "Development Frameworks": 1,
+  "Object Oriented Design": 1,
+  "General Knowledge": 1,
+  "Test Engineering": 1,
+  "Test Infrastructure": 1,
+  "Test Practices": 1,
+  "Development Tools": 0.85,
+  "Development Platforms": 0.85,
+  "SDLC": 0.85,
+  "Test Frameworks": 0.85,
+  "Test Delivery": 0.85,
+  "Test Tools": 0.5
 }

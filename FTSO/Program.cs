@@ -13,8 +13,6 @@ namespace FTSO
 
         public static void Main(string[] args)
         {
-
-            
             Console.Write("Candidate Name: ");
             string candidateName = Console.ReadLine();
             
@@ -24,10 +22,9 @@ namespace FTSO
             
             Candidate candidate = new Candidate(candidateName, interviewedBy);
 
-            
-            // extract to candidate implementation
+          
+            // commands off candidate?
             candidate.GiveFeedback();
-
         }
     }
 }
