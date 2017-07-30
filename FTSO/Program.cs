@@ -11,6 +11,7 @@ namespace FTSO
     {
         private const string SkillWeight = "skillWeight";
         private const string MinimumSkill = "minimumSkill";
+//        private static Candidate Candidate;
         
         public static void Main(string[] args)
         {
@@ -27,22 +28,18 @@ namespace FTSO
             JObject roles = JObject.Parse(roleStreamReader.ReadToEnd());
            
             
-            Console.WriteLine("Candidate Name");
+            Console.Write("Candidate Name: ");
+            string candidateName = Console.ReadLine();
+            
+            Console.Write("Interviewed By: ");
+            string interviewedBy = Console.ReadLine();
 
-           
+            
+            Candidate candidate = new Candidate(candidateName, interviewedBy);
 
-
-//            Console.WriteLine("Candidate Name");
-//            string nameOfCandidate = Console.ReadLine();
-//            
-//            Console.WriteLine("Interviewers");
-//            List<String> interviewers = Console.ReadLine().Split(',').ToList();
-//            
-//            Console.WriteLine();
-//            Console.WriteLine($"The candidate was: {nameOfCandidate}");
-//            Console.WriteLine();
-//            Console.WriteLine($"And was interviewed by: {interviewers}");
-
+            
+            // extract to candidate implementation
+            //candidate.GiveFeedBack();
 
             try
             {
@@ -50,7 +47,6 @@ namespace FTSO
                 {
                     Console.WriteLine();
                     Console.WriteLine($"Key: {skill.Key}");
-//                Console.WriteLine($"Skill Weight: {(int)skill.Value.SelectToken("weight")}");
                     Console.WriteLine($"Skill Weight: {(int) skill.Value.SelectToken(SkillWeight)}");
                     Console.WriteLine();
                 }
@@ -69,13 +65,6 @@ namespace FTSO
                 Console.WriteLine($"Minimum Skill Level for role: {(int)role.Value.SelectToken(MinimumSkill)}");
                 Console.WriteLine();
             }
-
-//            Console.WriteLine("Candidate Name:");
-//            string input = Console.ReadLine();
-//            
-//            Console.Write($"Yout typed {input}");
-//            Console.WriteLine();
-//            Console.WriteLine();
         }
     }
 }

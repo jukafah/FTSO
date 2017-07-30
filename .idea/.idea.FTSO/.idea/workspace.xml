@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3db8ed90-0519-481a-b4cb-4b793f46e5cd" name="Default" comment="" />
+    <list default="true" id="3db8ed90-0519-481a-b4cb-4b793f46e5cd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FTSO/FTSO.csproj" afterPath="$PROJECT_DIR$/FTSO/FTSO.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FTSO/Program.cs" afterPath="$PROJECT_DIR$/FTSO/Program.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FTSO/Resources/skills.json" afterPath="$PROJECT_DIR$/FTSO/Resources/skills.json" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,19 +31,32 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FTSO/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-542">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="52">
+              <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
               <folding>
-                <marker date="1501440649000" expanded="true" signature="6:136" ph="..." />
-                <marker date="1501440649000" expanded="true" signature="152:2678" ph="{...}" />
-                <marker date="1501440649000" expanded="true" signature="181:2676" ph="{...}" />
-                <marker date="1501440649000" expanded="true" signature="361:2670" ph="{...}" />
-                <marker date="1501440649000" expanded="true" signature="1003:1493" ph="/* Console.WriteLine(&quot;Candidate Name&quot;); ... */" />
-                <marker date="1501440649000" expanded="true" signature="1511:1961" ph="{...}" />
-                <marker date="1501440649000" expanded="true" signature="1571:1947" ph="{...}" />
-                <marker date="1501440649000" expanded="true" signature="2006:2104" ph="{...}" />
-                <marker date="1501440649000" expanded="true" signature="2146:2421" ph="{...}" />
-                <marker date="1501440649000" expanded="true" signature="2423:2660" ph="/* Console.WriteLine(&quot;Candidate Name:&quot;); ... */" />
+                <marker date="1501442613000" expanded="true" signature="6:136" ph="..." />
+                <marker date="1501442613000" expanded="true" signature="152:2248" ph="{...}" />
+                <marker date="1501442613000" expanded="true" signature="181:2246" ph="{...}" />
+                <marker date="1501442613000" expanded="true" signature="407:2240" ph="{...}" />
+                <marker date="1501442613000" expanded="true" signature="1321:1399" ph="/* extract to candidate implementation ... */" />
+                <marker date="1501442613000" expanded="true" signature="1416:1770" ph="{...}" />
+                <marker date="1501442613000" expanded="true" signature="1476:1756" ph="{...}" />
+                <marker date="1501442613000" expanded="true" signature="1815:1913" ph="{...}" />
+                <marker date="1501442613000" expanded="true" signature="1955:2230" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Candidate.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FTSO/Candidate.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+              <folding>
+                <marker date="1501442613000" expanded="true" signature="29:342" ph="{...}" />
+                <marker date="1501442613000" expanded="true" signature="58:340" ph="{...}" />
+                <marker date="1501442613000" expanded="true" signature="218:334" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -49,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/FTSO/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="278" column="24" lean-forward="true" selection-start-line="278" selection-start-column="24" selection-end-line="278" selection-end-column="24" />
+              <caret line="278" column="24" lean-forward="false" selection-start-line="278" selection-start-column="24" selection-end-line="278" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -58,21 +75,21 @@
       <file leaf-file-name="skills.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FTSO/Resources/skills.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="15">
+              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding>
-                <marker date="1501440441000" expanded="true" signature="26:36" ph="{...}" />
-                <marker date="1501440441000" expanded="true" signature="65:91" ph="{...}" />
-                <marker date="1501440441000" expanded="true" signature="119:145" ph="{...}" />
-                <marker date="1501440441000" expanded="true" signature="169:198" ph="{...}" />
-                <marker date="1501440441000" expanded="true" signature="226:255" ph="{...}" />
-                <marker date="1501440441000" expanded="true" signature="279:305" ph="{...}" />
-                <marker date="1501440441000" expanded="true" signature="317:346" ph="{...}" />
-                <marker date="1501440441000" expanded="true" signature="363:391" ph="{...}" />
-                <marker date="1501440441000" expanded="true" signature="413:442" ph="{...}" />
-                <marker date="1501440441000" expanded="true" signature="517:543" ph="{...}" />
-                <marker date="1501440441000" expanded="true" signature="564:590" ph="{...}" />
-                <marker date="1501440441000" expanded="true" signature="610:639" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="27:37" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="66:92" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="120:146" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="170:199" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="227:256" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="280:306" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="318:347" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="364:392" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="414:443" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="518:544" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="565:591" ph="{...}" />
+                <marker date="1501441859000" expanded="true" signature="611:640" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -132,6 +149,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/FTSO/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FTSO/Resources/skills.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FTSO/Candidate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FTSO/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FTSO/Resources/roles.json" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -160,10 +178,11 @@
         <option value="$PROJECT_DIR$/FTSO/Skills/IGeneral.cs" />
         <option value="$PROJECT_DIR$/FTSO/Resources/template.json" />
         <option value="$PROJECT_DIR$/FTSO/Candidate/Candidate.cs" />
-        <option value="$PROJECT_DIR$/FTSO/Resources/skills.json" />
         <option value="$PROJECT_DIR$/FTSO/Resources/roles.json" />
-        <option value="$PROJECT_DIR$/FTSO/Program.cs" />
         <option value="$PROJECT_DIR$/FTSO/.gitignore" />
+        <option value="$PROJECT_DIR$/FTSO/Resources/skills.json" />
+        <option value="$PROJECT_DIR$/FTSO/Candidate.cs" />
+        <option value="$PROJECT_DIR$/FTSO/Program.cs" />
       </list>
     </option>
   </component>
@@ -323,12 +342,12 @@
       <updated>1501111542790</updated>
       <workItem from="1501111544287" duration="4468000" />
       <workItem from="1501187323150" duration="6507000" />
-      <workItem from="1501348493796" duration="5782000" />
+      <workItem from="1501348493796" duration="6763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16757000" />
+    <option name="totallyTimeSpent" value="17738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,16 +403,15 @@
         <state relative-caret-position="435">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1501440649000" expanded="true" signature="6:136" ph="..." />
-            <marker date="1501440649000" expanded="true" signature="152:2678" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="181:2676" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="361:2670" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="1003:1493" ph="/* Console.WriteLine(&quot;Candidate Name&quot;); ... */" />
-            <marker date="1501440649000" expanded="true" signature="1511:1961" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="1571:1947" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="2006:2104" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="2146:2421" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="2423:2660" ph="/* Console.WriteLine(&quot;Candidate Name:&quot;); ... */" />
+            <marker date="1501442613000" expanded="true" signature="6:136" ph="..." />
+            <marker date="1501442613000" expanded="true" signature="152:2248" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="181:2246" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="407:2240" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1321:1399" ph="/* extract to candidate implementation ... */" />
+            <marker date="1501442613000" expanded="true" signature="1416:1770" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1476:1756" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1815:1913" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1955:2230" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -403,18 +421,18 @@
         <state relative-caret-position="165">
           <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
-            <marker date="1501440441000" expanded="true" signature="26:36" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="65:91" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="119:145" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="169:198" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="226:255" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="279:305" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="317:346" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="363:391" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="413:442" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="517:543" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="564:590" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="610:639" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="27:37" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="66:92" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="120:146" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="170:199" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="227:256" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="280:306" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="318:347" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="364:392" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="414:443" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="518:544" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="565:591" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="611:640" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -488,16 +506,15 @@
         <state relative-caret-position="120">
           <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
-            <marker date="1501440649000" expanded="true" signature="6:136" ph="..." />
-            <marker date="1501440649000" expanded="true" signature="152:2678" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="181:2676" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="361:2670" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="1003:1493" ph="/* Console.WriteLine(&quot;Candidate Name&quot;); ... */" />
-            <marker date="1501440649000" expanded="true" signature="1511:1961" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="1571:1947" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="2006:2104" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="2146:2421" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="2423:2660" ph="/* Console.WriteLine(&quot;Candidate Name:&quot;); ... */" />
+            <marker date="1501442613000" expanded="true" signature="6:136" ph="..." />
+            <marker date="1501442613000" expanded="true" signature="152:2248" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="181:2246" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="407:2240" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1321:1399" ph="/* extract to candidate implementation ... */" />
+            <marker date="1501442613000" expanded="true" signature="1416:1770" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1476:1756" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1815:1913" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1955:2230" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -688,27 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FTSO/Resources/skills.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <marker date="1501440441000" expanded="true" signature="26:36" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="65:91" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="119:145" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="169:198" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="226:255" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="279:305" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="317:346" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="363:391" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="413:442" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="517:543" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="564:590" ph="{...}" />
-            <marker date="1501440441000" expanded="true" signature="610:639" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FTSO/Properties/AssemblyInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -725,26 +721,58 @@
     <entry file="file://$PROJECT_DIR$/FTSO/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="278" column="24" lean-forward="true" selection-start-line="278" selection-start-column="24" selection-end-line="278" selection-end-column="24" />
+          <caret line="278" column="24" lean-forward="false" selection-start-line="278" selection-start-column="24" selection-end-line="278" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTSO/Resources/skills.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding>
+            <marker date="1501441859000" expanded="true" signature="27:37" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="66:92" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="120:146" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="170:199" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="227:256" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="280:306" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="318:347" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="364:392" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="414:443" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="518:544" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="565:591" ph="{...}" />
+            <marker date="1501441859000" expanded="true" signature="611:640" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FTSO/Candidate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <marker date="1501442613000" expanded="true" signature="29:342" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="58:340" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="218:334" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FTSO/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="52">
+          <caret line="40" column="50" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
           <folding>
-            <marker date="1501440649000" expanded="true" signature="6:136" ph="..." />
-            <marker date="1501440649000" expanded="true" signature="152:2678" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="181:2676" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="361:2670" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="1003:1493" ph="/* Console.WriteLine(&quot;Candidate Name&quot;); ... */" />
-            <marker date="1501440649000" expanded="true" signature="1511:1961" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="1571:1947" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="2006:2104" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="2146:2421" ph="{...}" />
-            <marker date="1501440649000" expanded="true" signature="2423:2660" ph="/* Console.WriteLine(&quot;Candidate Name:&quot;); ... */" />
+            <marker date="1501442613000" expanded="true" signature="6:136" ph="..." />
+            <marker date="1501442613000" expanded="true" signature="152:2248" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="181:2246" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="407:2240" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1321:1399" ph="/* extract to candidate implementation ... */" />
+            <marker date="1501442613000" expanded="true" signature="1416:1770" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1476:1756" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1815:1913" ph="{...}" />
+            <marker date="1501442613000" expanded="true" signature="1955:2230" ph="{...}" />
           </folding>
         </state>
       </provider>
