@@ -49,7 +49,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
     <Content Include="README.md" />
     <EmbeddedResource Include="Resources\roles.json" />
     <EmbeddedResource Include="Resources\skills.json" />
