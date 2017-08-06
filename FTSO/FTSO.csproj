@@ -44,9 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Candidate.cs" />
+    <Compile Include="Controller\Feedback.cs" />
+    <Compile Include="Model\Candidate.cs" />
+    <Compile Include="Model\IModel.cs" />
+    <Compile Include="Model\Roles.cs" />
+    <Compile Include="Model\Skills.cs" />
+    <Compile Include="Parsers\Loader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\Reader.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="README.md" />
